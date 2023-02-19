@@ -7,4 +7,6 @@ class DateRepository @Inject constructor(private val dateLocalSource: DateLocalS
 
     fun getLocalTime() = dateLocalSource.getLocalTime()
 
+    suspend fun getSuspendLocalTime() = dateLocalSource.getSuspendLocalTime()
+
 }

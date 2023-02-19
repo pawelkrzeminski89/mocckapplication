@@ -4,6 +4,8 @@ buildscript {
         mockk_version = '1.12.4'
         hilt_version = '2.40.5'
         compose_nav_hilt_version = '1.0.0'
+        kotest_version = '5.0.3'
+        kotlinx_coroutines_version = '1.6.0'
     }
     dependencies {
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hilt_version"
